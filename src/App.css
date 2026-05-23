@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: #f4f7ff;
+}
+
+
+.header {
+  background: linear-gradient(135deg, #5c6b85, #60a5fa);
+  padding: 40px 30px;
+  text-align: center;
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+.app {
+  min-height: 100vh;
+}
+
+
+.container {
+  max-width: 650px;
+  margin: -40px auto 40px;
+  padding: 0 20px;
+}
+
+
+.input-card {
+  display: flex;
+  gap: 15px;
+  padding: 20px;
+  background: white;
+  border-radius: 18px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+
+.input-card input {
+  flex: 1;
+  padding: 14px 16px;
+  border: 2px solid #e5e7eb;
+  border-radius: 12px;
+  font-size: 15px;
+  outline: none;
+}
+
+.input-card input:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 4px rgba(59,130,246,0.15);
+}
+
+
+.input-card button {
+  background: linear-gradient(135deg, #2563eb, #3b82f6);
+  color: white;
+  border: none;
+  padding: 14px 22px;
+  border-radius: 12px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.input-card button:hover {
+  transform: scale(1.05);
+}
+
+
+.task-card {
+  margin-top: 25px;
+  background: white;
+  border-radius: 18px;
+  padding: 25px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+
+.task-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.task-header h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.badge {
+  background: #e0e7ff;
+  color: #1d4ed8;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+
+.task-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+.task-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px;
+  background: #f9fafb;
+  border-radius: 14px;
+  border: 1px solid #eee;
+  transition: 0.2s;
+}
+
+.task-item:hover {
+  background: #eef2ff;
+  transform: translateY(-2px);
+}
+
+
+.dot {
+  width: 12px;
+  height: 12px;
+  background: #2563eb;
+  border-radius: 50%;
+}
